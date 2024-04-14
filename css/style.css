@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Public Sans', sans-serif;
+}
+
+/*  -----GLOBAL VARIABLES------ */
+
+:root{
+    --blue-color:#00205b;
+    --red-color:#ff0000;
+    --dark-color:#000;
+    --light-color:#fff;
+    --gray-color:#f6f6f6;
+
+
+    --fw-light:200;
+    --fw-normal:400;
+    --fw-bold:600;
+    --fw-bolder:700;
+    
+    --fs-100:0.75rem;
+    --fs-200:1.25;
+    --fs-300:0.65rem;
+    --fs-400:1.0625rem;
+    --fs-600:1.625rem;
+    --fs-900:2.5rem;
+}
+
+body {
+    overflow-x: hidden;
+  }
+  
