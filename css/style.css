@@ -127,7 +127,50 @@ body {
    }
 
 
+   .btn{
+      border:1px solid var(--blue-color);
+      color:var(--blue-color);
+      width: 150px;
+      height: 45px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      font-weight:700;
+   }
+
+   .btn:hover{
+    background:var(--blue-color);
+    color:var(--light-color)
+   }
+
+
 
 
 
   /*  ----END OF HEADER STYLING---- */
+
+
+
+
+
+
+  /* ---- RESPONSIVENESS ----- */
+
+  @media(max-width:992px){
+    header{
+        padding: 0 30px;
+      }
+    
+    
+    
+      .site-btn{
+          display:none;
+      }
+    
+      nav ul {
+        display:none;
+      
+      }
+    
+  }
