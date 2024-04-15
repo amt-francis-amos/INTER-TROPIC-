@@ -30,7 +30,7 @@ const slides = [
       buttonText: "Our Services"
   },
   {
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-2.png')",
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-3.png')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
