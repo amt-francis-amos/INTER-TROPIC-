@@ -30,7 +30,7 @@ const slides = [
       buttonText: "Our Services"
     },
     {
-      backgroundImage: "url('../images/air-2.jpeg')",
+      backgroundImage: "url('../images/air-2.jpg')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
@@ -38,7 +38,7 @@ const slides = [
     },
     
     {
-      backgroundImage: "url('../images/air-3.jpg')",
+      backgroundImage: "url('../images/air-3.jpeg')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
