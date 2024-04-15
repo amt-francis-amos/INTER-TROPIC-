@@ -204,14 +204,12 @@ footer{
 
 .footer-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     gap:3em;
 }
 
 
 .footer-info p{
-  width:100%;
-  max-width:900px;
   color:var(--light-color);
   padding:1em 0;
   text-align:justify;
@@ -428,4 +426,23 @@ footer{
     height: 60vh;
     object-fit: cover;
   }
+
+
+
+
+  .footer-container{
+     text-align:center;
+}
+
+
+.footer-info:nth-child(2){
+  margin-left:0;
+}
+
+.footer-info p{
+    max-width:350px;
+    margin:auto;
+    font-size:0.9em;
+    text-align: center;
+}
 }
