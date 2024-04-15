@@ -1,4 +1,4 @@
-// ---MENU-----
+
 
 let closeBtn = document.getElementById('closeBtn');
 let menuBtn = document.getElementById('menuBtn');

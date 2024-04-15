@@ -252,7 +252,7 @@ body {
 
 
     .container{
-        width:80%;
+        width:90%;
     }
 
     
@@ -266,8 +266,8 @@ body {
       }
     
       nav ul {
-        display:none;
-      
+        display:block;
+        margin-top:2em;
       }
 
       .header-row .fa{
