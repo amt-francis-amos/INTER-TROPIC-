@@ -37,7 +37,7 @@ const slides = [
       buttonText: "Contact Us"
   },
   {
-      backgroundImage: "url('images/air-3.png')",
+      backgroundImage: "url('images/air-3.jpeg')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
