@@ -67,8 +67,7 @@ function nextSlide() {
   showSlide(currentSlide);
 }
 
-// Initial call to show the first slide
 showSlide(currentSlide);
 
-// Auto advance to the next slide every 5 seconds (5000 milliseconds)
+
 setInterval(nextSlide, 5000);
