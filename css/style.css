@@ -213,6 +213,7 @@ footer{
   color:var(--light-color);
   padding:1em 0;
   text-align:justify;
+  font-size:0.9rem;
 }
 
 .footer-info:nth-child(2){
