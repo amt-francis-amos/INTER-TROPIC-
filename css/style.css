@@ -158,13 +158,19 @@ body {
   /* ---- RESPONSIVENESS ----- */
 
   @media(max-width:992px){
-    header{
-        padding: 0 30px;
+
+
+    .container{
+        width:80%;
+    }
+
+    
+      .site-logo img{
+        margin:0;
+        width:60px;
       }
     
-    
-    
-      .site-btn{
+      .qoute-btn{
           display:none;
       }
     
@@ -172,5 +178,71 @@ body {
         display:none;
       
       }
+
+      .header-row .fa{
+        font-size:2rem;
+        display:block;
+        position: absolute;
+        right: 5%;
+        top:4%;
+        cursor: pointer;
+        padding: 15px 12px;
+        color: #000;
+    }
+    
+    
+    .header-row .fa-close {
+        color: #fff;
+        font-size: 25px;
+        position:absolute;
+        top:0;
+        left:3px;
+      }
+    
+      nav {
+        background:var(--red-color);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        position: fixed;
+        text-align: left;
+        z-index:1;
+        transition: 0.5s;
+        color: #fff;
+        overflow: hidden;
+      }
+    
+      nav ul li {
+        display: block;
+        padding:0.7em 0;
+      }
+    
+    
+      nav ul li a {
+        color: #fff;
+      }
+    
+    
+      nav ul li a:after{
+       display:none;
+        
+    }
+    
+    
+    
+      nav ul li a:hover{
+          color:var(--blue-color);
+      }
+    
+      .site-logo img{
+          width:100px;
+      }
+    
+    
+    .header-row{
+        margin-top:1em;
+    }
+    
     
   }
