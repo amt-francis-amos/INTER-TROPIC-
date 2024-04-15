@@ -183,6 +183,139 @@ nav ul li a {
 
 /* --- END OF HERO CONTENT ---- */
 
+
+
+
+
+
+
+
+
+
+
+
+/* -------FOOTER STYLING ------ */
+
+footer{
+  background:var(--blue-color);
+  padding:80px 0px;
+  
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(50px, 1fr));
+    gap:3em;
+}
+
+
+.footer-info p{
+  width:100%;
+  max-width:900px;
+  color:var(--light-color);
+  padding:1em 0;
+  text-align:justify;
+}
+
+.footer-info:nth-child(2){
+  margin-left:4em;
+}
+
+
+.footer-info h2{
+  color:var(--light-color);
+}
+
+
+.footer-info ul{
+  list-style:none;
+ 
+}
+
+
+.footer-info ul li{
+  margin:0.9em 0;
+}
+
+.footer-info ul li a{
+  font-size:1.1rem;
+  color:var(--light-color);
+}
+
+
+
+/* -------END OF  FOOTER STYLING ------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- RESPONSIVENESS ----- */
 
 @media (max-width: 992px) {
