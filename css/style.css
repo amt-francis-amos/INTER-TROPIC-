@@ -125,6 +125,20 @@ nav ul li a {
   color: var(--blue-color);
   font-weight: 600;
 }
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  border-radius: 6px;
+  background: var(--red-color);
+  display: block;
+  margin: 4px auto;
+  transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
 
 .btn {
   border: 1px solid var(--blue-color);
@@ -200,6 +214,7 @@ footer{
   background:var(--blue-color);
   padding:80px 0px;
   position:relative;
+
 }
 
 .footer-container{
@@ -213,7 +228,7 @@ footer{
   color:var(--light-color);
   padding:1em 0;
   text-align:justify;
-  font-size:0.9rem;
+  font-size:1rem;
 }
 
 .footer-info:nth-child(2){
@@ -223,6 +238,7 @@ footer{
 
 .footer-info h2{
   color:var(--light-color);
+  font-weight:900;
 }
 
 
@@ -239,6 +255,10 @@ footer{
 .footer-info ul li a{
   font-size:1.1rem;
   color:var(--light-color);
+}
+
+.footer-info ul li a:hover{
+  color:var(--red-color);
 }
 
 .copy-right{

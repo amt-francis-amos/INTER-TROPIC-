@@ -45,6 +45,8 @@ section{
   margin:auto;
 }
 
-
+p{
+  line-height:1.5;
+}
 /* ---END OF RESET ----- */
 
