@@ -21,3 +21,54 @@ function closeMenu(){
 }
 
 
+const slides = [
+    {
+      backgroundImage: "url('../images/air-1.jpeg')",
+      title: "Global Air Services For Business",
+      subtitle: "For Personal & Business",
+      buttonLink: "#",
+      buttonText: "Our Services"
+    },
+    {
+      backgroundImage: "url('../images/air-2.jpeg')",
+      title: "Smooth landings, effortless bookings. Welcome to IHAS.",
+      subtitle: "We Care About Your Safety",
+      buttonLink: "#",
+      buttonText: "Contact Us"
+    },
+    
+    {
+      backgroundImage: "url('../images/air-3.jpg')",
+      title: "Smooth landings, effortless bookings. Welcome to IHAS.",
+      subtitle: "We Care About Your Safety",
+      buttonLink: "#",
+      buttonText: "Ask Anything"
+    },
+    
+  ];
+  
+
+  let currentSlide = 0;
+const heroSubtitle = document.getElementById("hero-subtitle");
+const heroTitle = document.getElementById("hero-title");
+const heroButton = document.getElementById("hero-button");
+
+function showSlide(slideIndex) {
+  const slide = slides[slideIndex];
+  document.getElementById("hero").style.backgroundImage = slide.backgroundImage;
+  heroSubtitle.textContent = slide.subtitle;
+  heroTitle.textContent = slide.title;
+  heroButton.textContent = slide.buttonText;
+  heroButton.href = slide.buttonLink;
+}
+
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}
+
+// Initial call to show the first slide
+showSlide(currentSlide);
+
+// Auto advance to the next slide every 5 seconds (5000 milliseconds)
+setInterval(nextSlide, 5000);
