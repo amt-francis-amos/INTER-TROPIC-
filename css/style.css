@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family: 'Public Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  color: #516171;
+  font-family: "Barlow", sans-serif;
 }
+
 
 /*  -----GLOBAL VARIABLES------ */
 
@@ -34,4 +36,98 @@
 body {
     overflow-x: hidden;
   }
+  .top-nav {
+    background: #052c97;
+    padding: 5px 0;
+  }
   
+  .top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-left: 16px;
+  }
+  
+  .top-nav i,
+  .top-nav span {
+    color: #fff;
+    vertical-align: middle;
+  }
+  
+  .social-links i {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  
+  .social-links i:hover {
+    background: #fff;
+    color: #052c97;
+  }
+
+
+  .nav-details{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+
+  /*  ----HEADER STYLING---- */
+
+  .container{
+    max-width:1200px;
+    margin:auto;
+  }
+
+
+  header{
+    background:var(--light-color);
+    width:100%;
+    height:88px;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.2);
+
+  }
+
+  .site-logo img{
+    width:90px;
+    margin-top:0.5em;
+  }
+
+
+  .header-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+   .site-nav{
+    display:flex;
+    align-items:center;
+    gap:1em;
+   }
+
+   nav ul{
+      list-style:none;
+   }
+
+   nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+   }
+
+   nav ul li a{
+      color:var(--blue-color);
+      font-weight:600;
+   }
+
+
+
+
+
+  /*  ----END OF HEADER STYLING---- */
