@@ -417,7 +417,7 @@ footer{
   }
 
   nav ul li a:hover {
-    color: var(--blue-color);
+    color: var(--red-color);
   }
 
   .site-logo img {
