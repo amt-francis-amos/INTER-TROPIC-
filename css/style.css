@@ -616,15 +616,14 @@ footer{
 
 .services-container{
   grid-template-columns:repeat(1,1fr);
-
- 
  }
+
+
+ .about-container{
+  grid-template-columns:repeat(1,1fr);
+ }
+ 
 
 }
-.about-container{
-  grid-template-columns:repeat(1,1fr);
-
- 
- }
 
 
