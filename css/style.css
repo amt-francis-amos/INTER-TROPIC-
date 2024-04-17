@@ -243,6 +243,7 @@ nav ul li a:hover::after {
 .about-info h2{
    font-size:1.3rem;
     margin-bottom:0.3em;
+    color:var(--red-color)
 }
 
 .about-info h1{
