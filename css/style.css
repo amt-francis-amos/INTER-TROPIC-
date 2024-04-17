@@ -288,7 +288,7 @@ nav ul li a:hover::after {
 /* -----SERVICES STYLING --- */
      .services-container{
       display:grid;
-      grid-template-columns:repeat(2,1fr);
+      grid-template-columns:repeat(3,1fr);
       gap:3em;
      
      }
@@ -305,7 +305,7 @@ nav ul li a:hover::after {
 
 
      .services-info h1{
-        font-size:2rem;
+        font-size:1.5rem;
      }
      .services-info p{
         font-size:1rem;
@@ -612,4 +612,19 @@ footer{
     font-size:0.9em;
     text-align: center;
 }
+
+
+.services-container{
+  grid-template-columns:repeat(1,1fr);
+
+ 
+ }
+
 }
+.about-container{
+  grid-template-columns:repeat(1,1fr);
+
+ 
+ }
+
+
