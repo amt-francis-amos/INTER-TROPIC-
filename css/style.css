@@ -200,7 +200,22 @@ nav ul li a:hover::after {
 
 
 
+/* ----ABOUT STYLING---- */
 
+.about-img{
+  width:100%;
+  height:400px;
+    background-image:linear-gradient(rgba(24, 11, 140, 0.5), rgba(4, 34, 133, 0.5)),url('../images/about-img.jpg');
+}
+
+.title{
+  color:var(--light-color);
+  font-size:3rem;
+  text-align:center;
+  margin-top:1em;
+}
+
+/* ----END OF ABOUT STYLING---- */
 
 
 
