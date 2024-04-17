@@ -261,6 +261,17 @@ footer{
   color:var(--red-color);
 }
 
+.footer-info i{
+    color:var(--red-color);
+   
+}
+
+.footer-info span{
+  color:var(--light-color);
+  margin-left:0.5em;
+  font-size:1.1em;
+}
+
 .copy-right{
   width:100%;
   height:80px;
