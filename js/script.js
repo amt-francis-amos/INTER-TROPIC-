@@ -24,22 +24,22 @@ function closeMenu(){
 const slides = [
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-3.png')",
-      title: "Global Air Services For Business",
-      subtitle: "For Personal & Business",
+      title: "Welcome to Inter-Tropic Holding Ltd.",
+      subtitle: "Global Air Services For Business.",
       buttonLink: "#",
       buttonText: "Our Services"
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/construction.jpg')",
-      title: "Crafting Tomorrow's Skylines. Welcome to IHAS.",
+      title: " Welcome to EARTHSAT CONSTRUCTION COMPANY.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
       buttonText: "Contact Us"
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/mining.jpg')",
-      title: "Building Tomorrow, Mining the Future. Welcome to IHAS.",
-      subtitle: "We Care About Your Safety",
+      title: "Welcome to KIJOE-MINERALS ",
+      subtitle: "Building Tomorrow, Mining the Future",
       buttonLink: "#",
       buttonText: "Ask Anything"
   }
@@ -51,6 +51,7 @@ const heroSubtitle = document.getElementById("hero-subtitle");
 const heroTitle = document.getElementById("hero-title");
 const heroButton = document.getElementById("hero-button");
 
+
 function showSlide(slideIndex) {
   const slide = slides[slideIndex];
   document.getElementById("hero").style.backgroundImage = slide.backgroundImage;
@@ -58,6 +59,7 @@ function showSlide(slideIndex) {
   heroTitle.textContent = slide.title;
   heroButton.textContent = slide.buttonText;
   heroButton.href = slide.buttonLink;
+
 }
 
 function nextSlide() {

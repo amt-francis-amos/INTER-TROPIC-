@@ -198,11 +198,20 @@ nav ul li a:hover::after {
 }
 
 .hero-content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--light-color);
   line-height: 1.2;
   margin-bottom: 0.7em;
 }
+
+.hero-content h3 {
+  font-size: 2rem;
+  color: var(--light-color);
+  line-height: 1.2;
+ 
+}
+
+
 
 .hero-content h2 {
   font-size: 1.2rem;
@@ -239,29 +248,11 @@ nav ul li a:hover::after {
   margin-top:1em;
 }
 
-.about-container{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:5em;
-   
-}
-
 .about-info{
-  position:relative;
+  width:100%;
+  text-align:center;
 }
 
-
-.img-box::after{
-  content:'';
-   width:50px;
-   height:300px;
-   background:var(--blue-color);
-   display:block;
-   position:absolute;
-  right:-24px;
-  z-index:-1;
-  top:40px;
-}
 
 
 .about-info h2{
@@ -282,6 +273,108 @@ nav ul li a:hover::after {
     margin-bottom:0.8em;
 }
 
+
+.about-info p{
+  line-height:1.7;
+}
+
+
+.target-container{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:3em;
+  margin-top:3em;
+}
+
+
+.innovation{
+  width:80%;
+  text-align:center;
+  margin:3em auto;
+}
+
+
+/* ------ OUR VISION AND MISSION STYLING ------- */
+
+.vision {
+  padding: 100px 0;
+}
+
+.vision-title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vision-title::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: #004c7e;
+  display: block;
+  border-radius: 6px;
+  margin: 5px auto;
+}
+
+.vision-title h1 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #004c7e;
+}
+
+.vision-title p {
+  margin: 10px auto;
+  line-height: 25px;
+}
+
+.vision-title span {
+  color: #000;
+}
+
+.vision-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 4% 8%;
+  gap: 30px;
+  text-align: center;
+}
+
+.vision-info {
+  background: #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  padding: 25px 18px;
+  border-radius: 10px;
+  position:relative;
+  
+}
+
+
+.vision-info img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.vision-info h2 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 25px;
+  color: #004c7e;
+}
+
+.vision-info p {
+  line-height: 25px;
+  font-size: 16px;
+  color: #292929;
+}
+
+
+
+
+
+/* ------ END OF OUR VISION AND MISSION STYLING ------- */
 
 /* ----END OF ABOUT STYLING---- */
 
@@ -327,6 +420,55 @@ nav ul li a:hover::after {
 
 
 /* -----END OF SERVICES STYLING --- */
+
+
+/* ---- OUR HISTORY STYLING ------ */
+
+.history-info{
+  text-align:center;
+  margin-top:4em;
+}
+
+
+.history-info  h1{
+     font-size:2rem;
+}
+
+.history-info p{
+  width:100%;
+  margin:auto;
+}
+
+
+
+
+
+/* ---- END OF OUR HISTORY STYLING ------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -631,6 +773,14 @@ footer{
   grid-template-columns:repeat(1,1fr);
  }
  
+
+ .target-container{
+  grid-template-columns:repeat(1,1fr);
+  text-align:center;
+ 
+}
+
+
 
 }
 
