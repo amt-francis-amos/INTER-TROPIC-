@@ -69,3 +69,6 @@ showSlide(currentSlide);
 
 
 setInterval(nextSlide, 5000);
+
+
+
