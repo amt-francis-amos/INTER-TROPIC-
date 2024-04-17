@@ -298,13 +298,19 @@ nav ul li a:hover::after {
       width:100%;
       max-width:400px;
       padding:2em;
-      height:200px;
+      height:250px;
       text-align:center;
         box-shadow:0px 0px 8px rgba(0,0,0,0.4)
      }
 
 
-     
+     .services-info h1{
+        font-size:2rem;
+     }
+     .services-info p{
+        font-size:1rem;
+        margin-bottom:1em;
+     }
 
 
 
