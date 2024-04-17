@@ -23,21 +23,21 @@ function closeMenu(){
 
 const slides = [
   {
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-1.png')",
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-3.png')",
       title: "Global Air Services For Business",
       subtitle: "For Personal & Business",
       buttonLink: "#",
       buttonText: "Our Services"
   },
   {
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-3.png')",
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/construction.jpg')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
       buttonText: "Contact Us"
   },
   {
-      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/air-4.png')",
+      backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/mining.jpg')",
       title: "Smooth landings, effortless bookings. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
