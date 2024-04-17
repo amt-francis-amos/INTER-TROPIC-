@@ -261,7 +261,7 @@ footer{
   color:var(--red-color);
 }
 
-.footer-info i{
+.footer-info .icons i{
     color:var(--red-color);
    
 }
