@@ -31,14 +31,14 @@ const slides = [
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/construction.jpg')",
-      title: "Smooth landings, effortless bookings. Welcome to IHAS.",
+      title: "Crafting Tomorrow's Skylines. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
       buttonText: "Contact Us"
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/mining.jpg')",
-      title: "Smooth landings, effortless bookings. Welcome to IHAS.",
+      title: "Building Tomorrow, Mining the Future. Welcome to IHAS.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
       buttonText: "Ask Anything"
