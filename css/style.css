@@ -738,7 +738,6 @@ footer{
 
 
 /* ---- RESPONSIVENESS ----- */
-
 @media(max-width:600px){
   .copy-right p{
     max-width:300px;
@@ -749,10 +748,6 @@ footer{
 
 
 }
-
-
-
-
 
 
 
@@ -848,7 +843,7 @@ footer{
 
   .top-nav p {
     font-size: 0.7rem;
-    color:var(--light-color);
+    color:var(--light-color)
   }
 
   .nav-info {
@@ -905,7 +900,12 @@ footer{
   margin-left:0;
 }
 
-
+.footer-info p{
+    max-width:300px;
+    margin:auto;
+    font-size:0.9em;
+    text-align: center;
+}
 
 
 .services-container{
