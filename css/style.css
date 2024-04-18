@@ -453,6 +453,73 @@ nav ul li a:hover::after {
 /* -----END OF SERVICES STYLING --- */
 
 
+/*  ----TEAM----- */
+.team-container{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:3em;
+  
+}
+
+.team-info h2{
+  font-size:1rem;
+  text-align:center;
+}
+
+.team-info i{
+   width:200px;
+   height:200px;
+   font-size:7rem;
+   color:var(--red-color);
+   background:var(--gray-color);
+   text-align:center;
+    padding-top:0.3em;
+}
+
+.team-info{
+   padding:2em;
+
+}
+
+.team-info h3{
+  font-size:1rem;
+  text-align:center;
+  color:var(--blue-color)
+}
+
+/*  ----END OF TEAM----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ------ COMPANY STYLING------- */
