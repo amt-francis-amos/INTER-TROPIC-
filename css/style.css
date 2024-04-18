@@ -380,9 +380,14 @@ nav ul li a:hover::after {
 
 
 /* -----SERVICES STYLING --- */
+  .services{
+    background:var(--gray-color);
+  }
+
+
      .services-container{
       display:grid;
-      grid-template-columns:repeat(3,1fr);
+      grid-template-columns:repeat(2,1fr);
       gap:3em;
       
      }
@@ -414,21 +419,30 @@ nav ul li a:hover::after {
 
      .services-info{
       width:100%;
-      max-width:900px;
+      max-width:500px;
       padding:2em;
       text-align:center;
       border-radius:8px;
       margin-top:2em;
-        box-shadow:0px 0px 8px rgba(0,0,0,0.4)
+      transition:.3s;
+      border:2px solid #00205b;
      }
 
 
-     .services-info h1{
+     .services-info h2{
         font-size:1.5rem;
-     }
-     .services-info p{
-        font-size:1rem;
         margin-bottom:1em;
+     }
+
+
+
+     .services-info p{
+        font-size:0.9rem;
+        margin-bottom:1em;
+     }
+
+     .services-info:hover{
+      box-shadow:0px 0px 8px rgba(0,0,0,0.4);
      }
 
 .airline h1{
@@ -805,6 +819,11 @@ footer{
  
 }
 
+.services-container{
+  grid-template-columns:repeat(1,1fr);
+  margin:auto;
+  
+ }
 
 
 }
