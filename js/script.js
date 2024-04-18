@@ -27,21 +27,21 @@ const slides = [
       title: "Welcome to Inter-Tropic Holding Ltd.",
       subtitle: "Global Air Services For Business.",
       buttonLink: "#",
-      buttonText: "Our Services"
+      buttonText: "Explore More"
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/construction.jpg')",
       title: " Welcome to EARTHSAT CONSTRUCTION COMPANY.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
-      buttonText: "Contact Us"
+      buttonText: "Explore More"
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/mining.jpg')",
       title: "Welcome to KIJOE-MINERALS ",
       subtitle: "Building Tomorrow, Mining the Future",
       buttonLink: "#",
-      buttonText: "Ask Anything"
+      buttonText: "Explore More"
   }
 ];
 
