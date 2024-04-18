@@ -115,6 +115,7 @@ header {
 
 nav ul {
   list-style: none;
+  margin-top:0.8em;
 }
 
 nav ul li {
@@ -830,6 +831,7 @@ footer{
 
   .top-nav p {
     font-size: 0.7rem;
+    color:var(--light-color);
   }
 
   .nav-info {
