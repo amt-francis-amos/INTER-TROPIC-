@@ -384,9 +384,33 @@ nav ul li a:hover::after {
       display:grid;
       grid-template-columns:repeat(3,1fr);
       gap:3em;
-     
+      
      }
 
+     .service-intro{
+          width:100%;
+     }
+
+
+     .service-intro h1{
+          color:var(--red-color);
+     }
+
+     .service-intro p{
+          width:100%;
+          max-width:800px;
+          margin:2em auto;
+     }
+
+
+
+
+
+     .services-img{
+      width:100%;
+      height:400px;
+        background-image:linear-gradient(rgba(24, 11, 140, 0.5), rgba(4, 34, 133, 0.5)),url('../images/service-img.jpg');
+     }
 
      .services-info{
       width:100%;
@@ -394,6 +418,7 @@ nav ul li a:hover::after {
       padding:2em;
       height:250px;
       text-align:center;
+      margin-top:2em;
         box-shadow:0px 0px 8px rgba(0,0,0,0.4)
      }
 
