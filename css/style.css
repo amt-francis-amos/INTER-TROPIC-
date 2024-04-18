@@ -195,6 +195,7 @@ nav ul li a:hover::after {
 .hero-content {
   width: 100%;
   max-width: 600px;
+  margin-top:3em;
 }
 
 .hero-content h1 {
