@@ -31,7 +31,7 @@ const slides = [
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/construction.jpg')",
-      title: " Welcome to EARTHSAT CONSTRUCTION COMPANY.",
+      title: " Welcome to Inter-Tropic Construction.",
       subtitle: "We Care About Your Safety",
       buttonLink: "#",
       buttonText: "Explore More"
