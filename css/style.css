@@ -297,9 +297,6 @@ nav ul li a:hover::after {
 
 /* ------ OUR VISION AND MISSION STYLING ------- */
 
-.vision {
-  padding: 100px 0;
-}
 
 .vision-title {
   width: 50%;
@@ -320,7 +317,7 @@ nav ul li a:hover::after {
 
 .vision-title h1 {
   font-weight: 900;
-  font-size: 40px;
+  font-size:2.5rem;
   color: #004c7e;
 }
 
@@ -834,6 +831,46 @@ footer{
     height: 60vh;
     object-fit: cover;
   }
+
+  .vision-title h1 {
+    font-size:1.2rem;
+  }
+  
+
+  .vision-title p {
+    font-size:0.9rem;
+  }
+
+  .about-info{
+      max-width:300px;
+      margin:auto;
+  }
+
+  .about-info h1{
+    font-size:1.5rem;
+    margin-bottom:1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
