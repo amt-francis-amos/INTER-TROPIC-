@@ -481,17 +481,19 @@ nav ul li a:hover::after {
    background:var(--gray-color);
    text-align:center;
     padding-top:0.3em;
+    margin:auto;
 }
 
 .team-info{
    padding:2em;
-
+  margin:auto;
 }
 
 .team-info h3{
   font-size:1rem;
   text-align:center;
-  color:var(--blue-color)
+  color:var(--blue-color);
+  
 }
 
 /*  ----END OF TEAM----- */
