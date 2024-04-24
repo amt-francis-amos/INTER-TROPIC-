@@ -22,6 +22,11 @@
     crossorigin="anonymous"
   ></script>
 
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
 </head>
 
 <body>
@@ -105,6 +110,118 @@
 
     
    <div class="container">
+    <p>Get to Know About Us</p>
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq">
+      <button class="accordion">
+        Billing and Payments
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            How does the billing process work?
+            What payment methods do you accept?
+            When can we expect to receive invoices and make payments?
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Services Provided
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            What specific services do you offer for airlines and aircraft?
+            Can you provide details about your flight catering services?
+            Do you handle ground services like landing fees and flight attendance?
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Booking and Requests
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            How can clients book your services?
+            Is there a specific lead time required for booking services?
+            Can clients make special requests for customized services?
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Quality and Compliance
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            What quality standards do you adhere to in your services?
+            Are you compliant with aviation regulations and safety standards?
+            How do you ensure the satisfaction of your clients?
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Customer Support
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            How can clients contact your customer support team?
+            What is the response time for inquiries and support requests?
+            Do you provide assistance for urgent or emergency situations?
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="accordion">
+        Partnerships and Collaborations
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            Are you open to partnerships with other companies in the industry?
+            Do you collaborate with airlines or aircraft manufacturers?
+            How can interested parties inquire about potential collaborations?
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="accordion">
+        Feedback and Reviews
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            Is there a way for clients to provide feedback on your services?
+   Do you have testimonials or reviews from previous clients?
+   How do you use client feedback to improve your services?
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <button class="accordion">
+        Terms and Conditions
+        <i class="fa-solid fa-chevron-down"></i>
+      </button>
+      <div class="pannel">
+        <p>
+            What are the terms and conditions for using your services?
+            Are there any specific contractual agreements clients should be aware of?
+            How do you handle cancellations or changes to bookings?
+        </p>
+      </div>
+    </div>
    </div>
 </section>
   </main>
@@ -195,5 +312,24 @@
 
 
     <script src="js/script.js"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    this.parentElement.classList.toggle("active");
+
+    var pannel = this.nextElementSibling;
+
+    if (pannel.style.display === "block") {
+      pannel.style.display = "none";
+    } else {
+      pannel.style.display = "block";
+    }
+  });
+}
+    </script>
 </body>
 </html>
