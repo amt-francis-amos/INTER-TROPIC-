@@ -597,8 +597,9 @@ footer{
 .footer-container{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
-    gap:3em;
+    gap:2em;
 }
+
 
 
 .footer-info p{
@@ -640,13 +641,15 @@ footer{
 
 .footer-info .icons i{
     color:var(--red-color);
+    margin-right:1em;
+  
    
 }
 
 .footer-info span{
   color:var(--light-color);
-  margin-left:0.5em;
-  font-size:1.1em;
+  font-size:1rem;
+  
 }
 
 .copy-right{
@@ -666,72 +669,6 @@ footer{
 }
 
 /* -------END OF  FOOTER STYLING ------ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
