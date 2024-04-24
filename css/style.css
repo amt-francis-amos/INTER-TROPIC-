@@ -572,11 +572,12 @@ nav ul li a:hover::after {
 .container > p,
 .container > h1 {
   margin: 1.5rem 0;
-  text-align: center;
+  text-align:center;
 }
 
 .container > h1 {
   letter-spacing: 3px;
+  color:var(--blue-color);
 }
 
 .accordion {
@@ -593,6 +594,7 @@ nav ul li a:hover::after {
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
+
 }
 
 .accordion i {
@@ -617,9 +619,12 @@ nav ul li a:hover::after {
 }
 
 .faq {
+  width:80%;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 10px 0;
+  margin: 10px auto;
 }
+
+
 .faq.active {
   border: none;
 }
@@ -963,6 +968,29 @@ footer{
  .team-container{
   grid-template-columns:repeat(1,1fr);
  
+}
+
+
+
+
+.faq{
+  width:85%;
+}
+
+.container > p,
+.container > h1 {
+  text-align:center;
+
+}
+
+.container > h1 {
+  font-size:0.9rem;
+
+}
+
+.container > p {
+  font-size:0.8rem;
+
 }
 
 }
