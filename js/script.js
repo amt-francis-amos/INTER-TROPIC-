@@ -99,3 +99,8 @@ document.addEventListener('scroll', handleScroll);
 
 // Initial check on page load
 handleScroll();
+
+
+
+
+

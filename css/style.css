@@ -369,11 +369,9 @@ nav ul li a:hover::after {
   color: #292929;
 }
 
-
-
-
-
 /* ------ END OF OUR VISION AND MISSION STYLING ------- */
+
+
 
 /* ----END OF ABOUT STYLING---- */
 
@@ -559,11 +557,44 @@ nav ul li a:hover::after {
   margin:auto;
 }
 
-
-
-
-
 /* ---- END OF OUR HISTORY STYLING ------ */
+
+
+
+/*-----FAQ STYLING-----  */
+
+.faq-img{
+  width:100%;
+  height:400px;
+  background-image:linear-gradient(rgba(24, 11, 140, 0.5), rgba(4, 34, 133, 0.5)),url('../images/fag-img.jpg');
+}
+
+
+
+
+
+
+
+/*-----END OF FAQ STYLING-----  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
