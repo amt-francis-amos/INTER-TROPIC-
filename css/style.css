@@ -676,6 +676,11 @@ nav ul li a:hover::after {
 }
 
 
+.cont p{
+  max-width:600px;
+  margin:auto;
+}
+
 
 .contact-info{
   display:flex;
