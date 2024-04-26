@@ -408,7 +408,7 @@ nav ul li a:hover::after {
   margin-top:2em;
  }
 
-
+ 
 
 
 /* --------END OF OUR PARTNERS -------- */
@@ -830,6 +830,50 @@ nav ul li a:hover::after {
   font-weight:900;
 }
 
+.branch-container{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:3em;
+  margin-top:3em;
+}
+
+
+.branch-info{
+  padding:3em;
+  box-shadow:0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.branch-info h1{
+  font-size:1rem;
+  margin:1em 0;
+  font-weight:900;
+}
+
+.branch-info p{
+  font-size:1rem;
+  color:var(--red-color);
+  font-weight:600;
+}
+
+
+.branch-info .fa{
+   margin-right:1em;
+}
+
+.branch-info .tel, .mail, .locate{
+  display:flex;
+  align-items:center;
+  margin:2em 0;
+}
+
+
+.mail h3{
+  font-size:1rem;
+}
+
+
+
+
 
 .form-wrapper{
   background:var(--blue-color);
@@ -1175,6 +1219,9 @@ img{
  
 }
 
+.branch-container{
+  grid-template-columns:repeat(1,1fr);
+}
 
 
 
