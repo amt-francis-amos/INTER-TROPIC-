@@ -497,7 +497,7 @@ nav ul li a:hover::after {
 .gallery-img{
   width:100%;
   height:400px;
-    background-image:linear-gradient(rgba(24, 11, 140, 0.5), rgba(4, 34, 133, 0.5)),url('../images/gallery-img.jpg');
+  background-image:linear-gradient(rgba(24, 11, 140, 0.5), rgba(4, 34, 133, 0.5)),url('../images/gallery-img.jpg');
  }
 
  .gallery-container{
@@ -512,7 +512,10 @@ nav ul li a:hover::after {
    height:80vh;
    object-fit:cover;
    transition:.3s;
+   border-radius:10px;
 }
+
+
 .gallery-info img:hover{
  transform:scale(1.1);
 }
@@ -577,6 +580,7 @@ nav ul li a:hover::after {
   width:100%;
    height:25vh;
    object-fit:cover;
+   border-radius:10px;
 }
 
 /*  ----END OF TEAM----- */
