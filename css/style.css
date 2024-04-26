@@ -364,13 +364,54 @@ nav ul li a:hover::after {
 }
 
 .vision-info p {
+  max-width:500px;
   line-height: 25px;
-  font-size: 16px;
+  font-size:1rem;
   color: #292929;
+  margin:2em auto;
 }
 
 /* ------ END OF OUR VISION AND MISSION STYLING ------- */
 
+
+
+
+
+/* --------OUR PARTNERS -------- */
+
+.title h1{
+  font-size:3rem;
+}
+
+
+
+.title h1::after{
+  content:'';
+  width:100px;
+  height:3px;
+  background:var(--blue-color);
+  display:block;
+  margin:auto;
+}
+
+
+.title p{
+    margin-top:3em;
+}
+
+
+.partner-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+  gap:4em;
+  place-items:center;
+  margin-top:2em;
+ }
+
+
+
+
+/* --------END OF OUR PARTNERS -------- */
 
 
 /* ----END OF ABOUT STYLING---- */
