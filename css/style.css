@@ -1176,7 +1176,9 @@ footer{
   grid-template-columns:repeat(1,1fr);
 }
 
-
+.gallery-info img{
+    height:auto;
+}
 
 
 .faq-img {
