@@ -578,7 +578,7 @@ nav ul li a:hover::after {
 
 .team-info img{
   width:100%;
-   height:25vh;
+   height:35vh;
    object-fit:cover;
    border-radius:10px;
 }
