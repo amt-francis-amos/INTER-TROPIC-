@@ -38,7 +38,7 @@ const slides = [
   },
   {
       backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('images/mining.jpg')",
-      title: "Welcome to KIJOE-MINERALS ",
+      title: "Welcome to KEY-MINERALS ",
       subtitle: "Building Tomorrow, Mining the Future",
       buttonLink: "#",
       buttonText: "Explore More"
