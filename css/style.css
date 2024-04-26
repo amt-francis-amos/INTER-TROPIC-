@@ -978,6 +978,12 @@ footer{
 
 
 @media (max-width: 992px) {
+
+img{
+  height:auto;
+}
+
+
   .container {
     width: 90%;
   }
