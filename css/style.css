@@ -127,6 +127,8 @@ nav ul li a {
   color: var(--blue-color);
   font-weight: 600;
 }
+
+
 nav ul li a::after {
   content: "";
   width: 0;
