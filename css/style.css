@@ -390,7 +390,7 @@ nav ul li a:hover::after {
 
 
 .advert-box img{
-  animation: moveUpDown 5s ease-in-out infinite; 
+  animation: moveUpDown 2s ease-in-out infinite; 
 }
 
 @keyframes moveUpDown {
