@@ -388,6 +388,16 @@ nav ul li a:hover::after {
      
 }
 
+.advert-box h2::after{
+  content:'';
+  width:100px;
+  height:4px;
+  background:var(--blue-color);
+  display:block;
+  margin:0.5em 0;
+
+}
+
 
 .advert-box img{
   animation: moveUpDown 2s ease-in-out infinite; 
