@@ -175,8 +175,14 @@
       <!-- ----END OF OUR PARTNERS ------->
 
 
-
-
+ <!-- Advertisement image before footer -->
+     <div class="container">
+     <div class="advert-box">
+     
+      <img id="advertImage" src="images/advert.jpeg" alt="Advertisement" style="width: 300px; display: none;">
+      <h2>FIA CONSTRUCTION COMPANY</h2>
+    </div>
+     </div>
 
     </main>
 
@@ -243,5 +249,32 @@
     </footer>
 
     <script src="js/script.js"></script>
+
+    <script>
+      function showAdvertImage() {
+        var advertImg = document.getElementById("advertImage");
+        if (advertImg) {
+          advertImg.style.display = "block";
+        }
+      }
+
+    
+      function hideAdvertImage() {
+        var advertImg = document.getElementById("advertImage");
+        if (advertImg) {
+          advertImg.style.display = "none";
+        }
+      }
+
+     
+      window.onload = function() {
+        showAdvertImage();
+      };
+
+
+      window.addEventListener("beforeunload", function(event) {
+        hideAdvertImage();
+      });
+    </script>
   </body>
 </html>
