@@ -1223,6 +1223,10 @@ img{
     color:var(--light-color)
   }
 
+  p span{
+    color:var(--light-color);
+  }
+
   .nav-info {
     margin-bottom: 0.9em;
   }
