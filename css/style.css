@@ -690,20 +690,6 @@ nav ul li a:hover::after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------ COMPANY STYLING------- */
 .company-container{
   display:grid;
@@ -740,6 +726,43 @@ nav ul li a:hover::after {
  .company-info:hover{
   box-shadow:0px 0px 8px rgba(18, 101, 225, 0.4);
  }
+
+
+ .airline h1:after{
+  content:'';
+  width:100px;
+  height:3px;
+  background:var(--blue-color);
+  display:block;
+  margin:auto;
+}
+
+
+.wills-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+    gap:3em;
+}
+
+
+.will-bar h1:after{
+  content:'';
+  width:100px;
+  height:3px;
+  background:var(--blue-color);
+  display:block;
+  margin:auto;
+}
+
+
+.wils-logo{
+  width:180px;
+
+}
+
+
+
 /* ------END OF COMPANY STYLING------- */
 
 
@@ -1330,7 +1353,20 @@ img{
   
  }
 
+ .wills-container{
+  grid-template-columns:repeat(1,1fr);
+ }
 
+ .will-info p{
+  text-align:justify;
+ }
+
+
+ .wils-logo{
+  display:block;
+  margin:2em auto;
+ }
+ 
  .team-container{
   grid-template-columns:repeat(1,1fr);
  
