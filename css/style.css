@@ -750,6 +750,7 @@ nav ul li a:hover::after {
 .will-info img{
   filter: grayscale(0);
   transition:.3s;
+  border-radius:20px;
 }
 
 .will-info img:hover{
