@@ -869,7 +869,9 @@ nav ul li a:hover::after {
   border: none;
 }
 
-
+.faq-answer{
+  font-weight:bold;
+}
 
 
 
@@ -1417,6 +1419,10 @@ img{
   object-fit: cover;
 }
 
+
+.faq-answer{
+  color:#000;
+}
 
 
 
