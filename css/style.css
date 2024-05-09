@@ -747,6 +747,15 @@ nav ul li a:hover::after {
     gap:3em;
 }
 
+.will-info img{
+  filter: grayscale(0);
+  transition:.3s;
+}
+
+.will-info img:hover{
+   filter: grayscale(1);
+}
+
 
 .will-bar h1:after{
   content:'';
